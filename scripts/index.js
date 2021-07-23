@@ -1,5 +1,5 @@
 const count = document.getElementById('count');
-//huyen
+//huyen day ne
 const head = document.getElementById('head');
 const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
