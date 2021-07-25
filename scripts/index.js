@@ -1,6 +1,4 @@
 const count = document.getElementById('count');
-//huyen day ne
-//lai la huyen ne
 const head = document.getElementById('head');
 const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
@@ -10,7 +8,7 @@ const fire = $('#fire');
 
 // const c = document.getElementById('confetti');
 const config = {
-  birthdate: 'Jul 24, 2021',
+  birthdate: 'Jul 26, 2021',
   name: 'Huyền'
 };
 
