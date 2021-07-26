@@ -41,14 +41,6 @@ left: 50%;
 top: 20%;
 }
 
-#card-inside {
-    background: hsl(185, 34%, 71%);
-    -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
-    -moz-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
-    box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
-    padding: 0px 10px 0 10px;
-}
-
 #card {
     max-width: 900px;
     margin: 0 auto;
@@ -67,6 +59,11 @@ top: 20%;
 }
     
 #card-inside {
+    background: hsl(185, 34%, 71%);
+    -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
+    padding: 10px 15px 0 15px;
     font-size: 1.6em;
     line-height: 1.1;
     font-family: 'UTM A&S Signwriter';
