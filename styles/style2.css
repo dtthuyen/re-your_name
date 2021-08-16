@@ -26,7 +26,7 @@ canvas {
     }
 }
 #card, #card-front, #card-inside {
-height: 400px;
+height: 60vh;
 }
 
 #card-front {
@@ -45,7 +45,7 @@ top: 20%;
 }
 
 #card {
-    max-width: 900px;
+    max-width: 70vw;
     margin: 0 auto;
     transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -62,21 +62,23 @@ top: 20%;
 }
     
 #card-inside {
+    position: absolute;
     background: hsl(185, 34%, 71%);
     -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
     -moz-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
     box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
     padding: 10px 15px 0 15px;
-    font-size: 1.6em;
-    line-height: 1.1;
-    font-family: 'UTM A&S Signwriter';
-    color: #331717;
 }
 
 p {
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 1em;
+    letter-spacing: 0.07vw;
+    font-size: 2vw;
+    line-height: 1.1;
+    font-family: 'UTM A&S Signwriter';
+    color: #331717;
+    margin-left: 2.2vw;
+    margin-right: 1.8vw;
+    margin-top: 2vh;
 }
 
 p:first-child {

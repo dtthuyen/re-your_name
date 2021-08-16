@@ -8,8 +8,8 @@ const fire = $('#fire');
 
 // const c = document.getElementById('confetti');
 const config = {
-  birthdate: 'Jul 31, 2021',
-  name: 'Nguyễn Tiến Hùng'
+  birthdate: 'Aug 16, 2021',
+  name: 'Phan Văn Cơ'
 };
 
 let w = (c.width = window.innerWidth),
