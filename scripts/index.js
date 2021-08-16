@@ -8,7 +8,7 @@ const fire = $('#fire');
 
 // const c = document.getElementById('confetti');
 const config = {
-  birthdate: 'Aug 16, 2021',
+  birthdate: 'Aug 17, 2021',
   name: 'Phan Văn Cơ'
 };
 
