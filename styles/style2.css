@@ -9,7 +9,7 @@ canvas {
     top: 0;
     left: 0;
     z-index: -1; 
-    background-image: url(../forest.png), linear-gradient(#111452 ,#3751e0);
+    background-image: url(../forest.png);
     background-position: bottom;
     background-size: 110%;
     background-repeat: no-repeat;
