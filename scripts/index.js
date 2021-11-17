@@ -8,8 +8,8 @@ const fire = $('#fire');
 
 // const c = document.getElementById('confetti');
 const config = {
-  birthdate: 'July 24, 2022',
-  name: 'Đinh Thị Thanh Huyền'
+  birthdate: 'November 17, 2021',
+  name: 'Ngô Thị Ánh Hiền'
 };
 
 let w = (c.width = window.innerWidth),
