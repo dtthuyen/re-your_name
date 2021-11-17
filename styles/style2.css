@@ -11,7 +11,7 @@ canvas {
     z-index: -1; 
     background-image: url(../forest.png);
     background-position: bottom;
-    background-size: 110%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
