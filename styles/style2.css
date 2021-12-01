@@ -63,7 +63,7 @@ top: 20%;
     
 #card-inside {
     position: absolute;
-    background: hsl(185, 34%, 71%);
+    background: hsl(180, 1%, 69%);
     -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
     -moz-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
     box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
@@ -71,14 +71,17 @@ top: 20%;
 }
 
 p {
-    letter-spacing: 0.07vw;
-    font-size: 2vw;
-    line-height: 1.1;
-    font-family: 'UTM A&S Signwriter';
+    line-height: 1.5;
+    text-align: justify;
     color: #331717;
     margin-left: 2.2vw;
     margin-right: 1.8vw;
-    margin-top: 2vh;
+}
+
+#sign {
+    font-size: larger;
+    letter-spacing: 0.07vw;
+    font-family: 'UTM A&S Signwriter';
 }
 
 p:first-child {
