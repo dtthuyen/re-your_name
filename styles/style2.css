@@ -67,10 +67,10 @@ top: 20%;
     -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
     -moz-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
     box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
-    padding: 10px 15px 0 15px;
+    padding: 0;
 }
 
-p {
+/* p {
     line-height: 1.5;
     text-align: justify;
     color: #331717;
@@ -87,7 +87,7 @@ p {
 p:first-child {
     padding-top: 20px;
     margin-top: 0;
-}
+} */
 
 #card-front {
             transform-origin: left;
@@ -164,12 +164,13 @@ background: #FFEFEF;
     transform: translate(-50%,-50%);
 }
 
-.img_profile img {
+.img_profile img, .content img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 #card {
     opacity: 0;
     animation: fade 1s ease-in 2s forwards;
@@ -182,4 +183,3 @@ background: #FFEFEF;
     margin-left: 200px;
     width: 10vw;
 }
-
